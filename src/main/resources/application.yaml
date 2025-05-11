@@ -1,0 +1,8 @@
+ktor:
+  application:
+    modules:
+      - petpro.deviceowners.ApplicationKt.mainSchemaModule
+  deployment:
+    port: 8080
+device_service:
+  url: 'http://localhost:9292/api/v1/'
